@@ -1,8 +1,8 @@
 import cv2
-
 def Camera():
     cap = cv2.VideoCapture(0)
     print("Camera On")
+    print("OpenCV--version:", cv2.__version__)
     while True:
         _, frame = cap.read()
 
