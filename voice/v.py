@@ -20,8 +20,9 @@ def load_translations():
     pass
 
 def main():
-    pass
+    Camera()
+    recognize_speech_from_mic()
+    load_translations()
 
 if __name__ == '__main__':
-    Camera()
     main()
